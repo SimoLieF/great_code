@@ -10,10 +10,12 @@ int mojisuu = 0;
 int main(){
   while(mojisuu++<1000){
       sprintf(mojiretsu,"%d",mojisuu);
-      if(mojisuu%3)
+      if(mojisuu%3==0)
           printf("Fizz");
-      if(mojisuu%5)
+      if(mojisuu%5==0)
           printf("Buzz");
+      if((mojisuu%3!=0)&&(mojisuu%5!=0)
+          printf("%d",mojisuu); 
       printf(",");    
       //system("PAUSE");
   }
