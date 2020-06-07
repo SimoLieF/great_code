@@ -8,6 +8,7 @@ int mojisuu = 0;
 #endif
 //int main() { while (mojisuu++ < 1000)sprintf(mojiretsu, "%d", mojisuu), printf("%s, ", mojisuu % 15 ? mojisuu % 3 ? mojisuu % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz"); system("PAUSE"); 
 int main(){
+  system("PAUSE");
   while(mojisuu++<1000){
       sprintf(mojiretsu,"%d",mojisuu);
       if(mojisuu%3==0)
