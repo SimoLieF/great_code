@@ -14,6 +14,7 @@ int main(){
           printf("Fizz");
       if(mojisuu%5)
           printf("Buzz");
+      printf("\n");    
       system("PAUSE");
   }
 }
